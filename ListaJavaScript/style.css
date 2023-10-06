@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+h1{
+    font: normal bold 37px times;
+    text-align: center;
+    padding: 8px;
+
+}
+
+h2{
+    font: normal bold 19px times;
+    padding: 8px;
+    
+}
+
+h2.aula{
+    text-align: left;
+}
+
+p{
+    font: normal 12px Arial;
+    padding: 8px;
+}
+
+body{
+
+    background-color: rgb(196, 245, 230);
+    margin: 0px;
+    box-shadow: 5px 0px 10px 0px rgb(0, 0, 0);
+    
+}
+
+div{
+
+    margin: 0px;
+    box-shadow: 5px 0px 10px 0px rgb(0, 0, 0);
+    padding-bottom: 5px;
+}
+ 
+   
+
+
+ 
+
+
+ 
+ 
+
