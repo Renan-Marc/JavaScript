@@ -5,31 +5,33 @@ body{
     background-color: rgb(1, 93, 143);
 }
 
-h1{
-
+header{
+    color: white;
     text-align: center;
+}
+
+h1{
     font: 42px Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: white;
 
 }
 
 section{
     background-color: white;
-    width: 400px;
+    width: 500px;
     height: 300px;
     padding: 15px;
     margin: auto;
-    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.429);
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.429);
     
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 footer{
-    font:bold 18px times;
+    
     font-style: italic;
     text-align: center;
     color: white;
     padding-top: 20px;
-
+    font:bold 18px times;
 }
