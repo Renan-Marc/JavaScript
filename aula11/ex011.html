@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+</head>
+<body>
+    <h1>Sistemas de identificação</h1>
+    De que país você pertence: <input type="datetime" name="texto" id="texto">
+    
+    <input type="button" value="Verificar " onclick="calcular()">
+
+
+    <div id="res">
+
+
+
+    </div>
+
+    <script>
+        function calcular () {
+            var tex = window.document.querySelector('input#texto')
+            var res = window.document.querySelector('div#res')
+            var vel = String(tex.value)
+
+            res.innerHTML = `Olá ${vel}`
+
+             if(vel = Brasil){
+                res.innerHTML += `<p>Você é brasileiro</p>`  
+             }else{
+                res.innerHTML += `<p>Você é estrangeiro</p>`
+             }
+                 
+        }
+    </script>
+</body>
+</html>
