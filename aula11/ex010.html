@@ -25,10 +25,34 @@
             var vel = Number(txtv.value)
             res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}Km/h<strong></p>`
 
-                if(vel > 60){
-                    res.innerHTML += `<p>Você esta <strong>MULTADO</strong> por excesso velocidade</p>`
+                if(vel <= 60){
+                    res.innerHTML += `<p>Continue assim</p>`
                 }else{
-                    res.innerHTML += `<p>Meus parabens</p>`
+                    if(vel >= 61 && vel < 200){
+                    res.innerHTML += `<p>Você esta <strong>MULTADO</strong> por excesso velocidade</p>`
+                    }else{
+
+                        if(vel >= 201 && vel < 250){
+                        res.innerHTML += `<p>GSUS</p>`
+                        }else{
+                            
+                            if(vel >= 251 && vel <= 300){
+                            res.innerHTML += `<p>Tira</p>`
+                            }else{
+                                if(vel >= 300 && vel <= 400){
+                                res.innerHTML = `<p>NOOOSSAAAA</p>`
+                                }else{
+                                    if(vel >400){
+                                        res.innerHTML = `<p>AI CHAVES AI CHAVINHO</p>`
+                                    }else{
+                                        res.innerHTML = `<p>NOOOSSAAAA</p>`
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
                 }
 
             res.innerHTML +=`<p>Dirija sempre com cinto de segurança!</p>`
